@@ -1,0 +1,13 @@
+Insertion Sort:
+	Best Case: When all the elements are sorted.
+	Worst Case: When all the elements are completely unsorted(in opposite direction).
+
+Merge Sort:
+	It uses divide and conquer algorithm and its [ Best Case= Worst Case= Average Case ]
+	At each level of recursion, the merge process is performed on the entire array.
+	Each level of recursion is O(n). There are O(log n) levels of recursion as array is approximately halved each time.
+	So, mergesort takes just as long no matter what the existing state of the array. 
+
+
+For a small number of elements, Insertion Sort has less time complexity and it is better.
+but for a large number of elements, Merge Sort is better.
